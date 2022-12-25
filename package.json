@@ -1,0 +1,24 @@
+{
+  "name": "bot-whatsapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./build/start.js",
+    "build": "tsc",
+    "dev": "ts-node-dev ./src/start.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Aldebaran",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "@adiwajshing/baileys": "github:adiwajshing/baileys",
+    "@hapi/boom": "^9.1.4",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
